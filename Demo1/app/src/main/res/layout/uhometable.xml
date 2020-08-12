@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:shrinkColumns="0">
+    <TableRow>
+        <TextView android:text="第一行第一列"/>
+        <TextView android:text="第一行第二列"/>
+        <TextView android:text="第一行第三列"/>
+    </TableRow>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="单独的一个TextView"
+        android:background="#aaaa00"
+        android:gravity="center"
+        />
+
+    <TableRow>
+        <Button
+            android:layout_span="3"
+            android:text="合并三个单元格"
+            android:textColor="#aa0000"
+            android:gravity="center_horizontal"
+            />
+
+    </TableRow>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:background="#fa05"
+        android:text="单独的一个textView"/>
+
+    <TableRow android:layout_height="wrap_content">
+
+        <TextView android:text="EmPtyEmPtyEmPtyEmPtyEmP111tEmPtyEmPtyEmPtyEmPtyEmP111tEmPtyEmPtyEmPtyEmPtyEmP111t"
+            />
+        <Button android:text="第二行二列"/>
+        <Button android:text="第二行第三列"/>
+    </TableRow>
+
+</TableLayout>
