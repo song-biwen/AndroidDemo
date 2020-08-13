@@ -25,8 +25,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".UWidgetActivity"/>
         <activity android:name=".UHomeActivity"/>
         <activity android:name=".UWebActivity"/>
+        <activity android:name=".RadioGroupActivity"/>
+        <activity android:name=".EditTextActivity"/>
+        <activity android:name=".SpinnerActivity"/>
+        <activity android:name=".AutoCompleteTextViewActivity"/>
+        <activity android:name=".UImageActivity"/>
 
     </application>
 
